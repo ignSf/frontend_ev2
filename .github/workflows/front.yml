@@ -2,7 +2,7 @@ name: dockerhub_ci
 
 on:
   push:
-    branches: [main]
+    branches: [deploy]
 
 jobs:
   build_and_push:
